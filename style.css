@@ -10,13 +10,15 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     min-height: 100vh;
     overflow-x: hidden;
 }
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -76,6 +78,7 @@ header{
 }
 #text{
     position: absolute;
+    text-align: center;
     font-size: 5em;
     color: #1b283a;
     text-shadow: 2px 4px 5px #f9f9f9;
@@ -110,4 +113,14 @@ header{
     color: #fff;
     font-weight: 300;
     text-align: justify;
+}
+a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+#section2{
+    display: inline-block;
+    
 }
